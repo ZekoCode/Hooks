@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Modal, ModalBody, ModalHeader, ModalFooter} from 'reactstrap';
@@ -76,7 +75,7 @@ setPaisSeleccionado(elemento);
 
   return (
     <div className="App">
-      <h2>Países en los que la gente pasa más tiempo en redes sociales (2019)</h2>
+      <h2>Países en los que la gente pasa más tiempo en redes sociales (2022)</h2>
       <br />
     <button className="btn btn-success" onClick={()=>abrirModalInsertar()}>Insertar</button>
     <br /><br />
