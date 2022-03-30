@@ -94,8 +94,7 @@ setPaisSeleccionado(elemento);
               <td>{elemento.id}</td>
               <td>{elemento.nombre}</td>
               <td>{elemento.minutos}</td>
-              <td><button className="btn btn-primary" onClick={()=>seleccionarPais(elemento, 'Editar')}>Editar</button> {"   "} 
-              <button className="btn btn-danger" onClick={()=>seleccionarPais(elemento, 'Eliminar')}>Eliminar</button></td>
+              
             </tr>
           ))
           }
