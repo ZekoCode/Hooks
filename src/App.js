@@ -17,7 +17,7 @@ function App() {
     { id: 9, nombre: "Sudáfrica", minutos: 190 },
     { id: 10, nombre: "Egipto", minutos: 186 },
   ];
-
+  
   const [data, setData] = useState(dataPaises);
   const [modalEditar, setModalEditar] = useState(false);
   const [modalEliminar, setModalEliminar] = useState(false);
