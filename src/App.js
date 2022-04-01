@@ -77,7 +77,7 @@ setPaisSeleccionado(elemento);
     <div className="App">
       <h2>Países en los que la gente pasa más tiempo en redes sociales (2022)</h2>
       <br />
-    <button className="btn btn-success" onClick={()=>abrirModalInsertar()}>Insertar</button>
+    <button className="btn btn-info" onClick={()=>abrirModalInsertar()}>Insertar</button>
     <br /><br />
       <table className="table table-bordered">
         <thead>
@@ -94,7 +94,8 @@ setPaisSeleccionado(elemento);
               <td>{elemento.id}</td>
               <td>{elemento.nombre}</td>
               <td>{elemento.minutos}</td>
-              
+              <td><button className="btn btn-success" onClick={()=>seleccionarPais(elemento, 'Editar')}>Editar</button> {"   "} 
+              <button className="btn btn-danger" onClick={()=>seleccionarPais(elemento, 'Eliminar')}>Eliminar</button></td>
             </tr>
           ))
           }
