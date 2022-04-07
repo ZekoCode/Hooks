@@ -81,7 +81,7 @@ setPaisSeleccionado(elemento);
     <br /><br />
       <table className="table table-bordered">
         <thead>
-          <tr>
+          <tr className='Tabla'>
             <th>ID</th>
             <th>Nombre</th>
             <th>Minutos (por día)</th>
